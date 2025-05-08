@@ -1,9 +1,11 @@
+import os
 import streamlit as st
 import numpy as np
 import joblib
 
 # Load the model
-model = joblib.load('breast_cancer_model.pkl')
+model_path = os.path.join(os.path.dirname(__file__),'breast_cancer_model.pkl')
+model=joblib.load(model_path)
 
 st.title("Breast Cancer Prediction App")
 st.markdown("Enter the values for all 30 features below to predict whether the tumor is benign or malignant.")
