@@ -1,7 +1,5 @@
 # Breast_cancer_classification_predictor
  
-# Breast Cancer Classification Predictor
-
 A simple and user-friendly web app built with **Streamlit** to predict whether a breast tumor is **Malignant** or **Benign** based on input medical features. The model is trained on the Breast Cancer Wisconsin dataset using machine learning techniques.
 
 ---
