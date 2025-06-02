@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load model, scaler, and selected features
-model = joblib.load('cancer_model.pkl')
+model = joblib.load('App/cancer_model.pkl')
 
 scaler = joblib.load('scaler.pkl')
 top_features = joblib.load('selected_features.pkl')
